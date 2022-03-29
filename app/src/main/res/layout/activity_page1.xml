@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#A80202"
+    android:backgroundTintMode="src_in"
+    tools:context=".Page1">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="412dp"
+        android:layout_height="134dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <RadioGroup
+        android:id="@+id/idPonctualite"
+        android:layout_width="325dp"
+        android:layout_height="161dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347">
+
+        <RadioButton
+            android:id="@+id/idPonctualite1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très satisfait" />
+
+        <RadioButton
+            android:id="@+id/idPonctualite2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait" />
+
+        <RadioButton
+            android:id="@+id/idPonctualite3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peu satisfait" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="322dp"
+        android:layout_height="37dp"
+        android:text="Votre avis sur la ponctualité  : "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.209" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="339dp"
+        android:layout_height="33dp"
+        android:text="Votre avis sur le service : "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <RadioGroup
+        android:id="@+id/idService"
+        android:layout_width="340dp"
+        android:layout_height="158dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746">
+
+        <RadioButton
+            android:id="@+id/idService1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Très satisfait" />
+
+        <RadioButton
+            android:id="@+id/idService2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Satisfait" />
+
+        <RadioButton
+            android:id="@+id/idService3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peu satisfait" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/idSuivant1"
+        android:layout_width="414dp"
+        android:layout_height="59dp"
+        android:background="@color/design_default_color_error"
+        android:backgroundTint="@color/design_default_color_error"
+        android:backgroundTintMode="src_in"
+        android:text="Suivant"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
